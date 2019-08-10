@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+
+}
+.nav {
+    display: flex;
+    height: 95px;
+}
+.nav__company {
+    margin-right: 532px;
+    margin-left: 136px;
+    width: 170px;
+}
+.header {
+    background-image: url("../img/header_phones.png"),
+                      url("../img/header_background.png");             
+    background-repeat: no-repeat, no-repeat;
+    width: 1440px;
+    height: 930px;
+}
+.presentation {
+    margin: 0;
+    margin-left: 135px;
+    width: 510px;
+    height: 620px;
+}
+.presentation__introduce {
+    font-size: 14px;
+    line-height: 48px;
+    color: #008ed6;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.presentation__slogan {
+    color: white;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+.presentation__text {
+    font-size: 18px;
+    line-height: 26px;
+    color: #4c4e59;
+}
