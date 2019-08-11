@@ -8,14 +8,76 @@ body {
 }
 .nav {
     display: flex;
+    align-items: center;
     height: 95px;
 }
-.nav__company {
-    margin-right: 532px;
+.nav__logo {
+    display: flex;
+    
     margin-left: 136px;
     width: 170px;
+    
+    
+    align-items: center;
 }
+
+.nav__company {
+    font-size: 24px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: white;
+    flex-wrap: wrap;
+    margin-right: 6px;
+}
+.nav__intro {
+    font-size: 9px;
+    line-height: 10px;
+    width: 50px;
+    letter-spacing: 0.14em;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.3;
+}
+
+.nav__list {
+    display: flex;
+    margin-right: 136px;
+}
+
+.nav__underline {
+    border: 2px solid red;
+}
+
+
+
+.nav__link {
+    
+    margin-right: 22px;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.nav__link--dashed {
+    position: relative;
+}
+.nav__link--dashed::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/header__underline.svg");
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 2px;
+    bottom: 7px;
+    left: 2px;
+}
+
 .header {
+    
     background-image: url("../img/header_phones.png"),
                       url("../img/header_background.png");             
     background-repeat: no-repeat, no-repeat;
@@ -47,4 +109,29 @@ body {
     font-size: 18px;
     line-height: 26px;
     color: #4c4e59;
+}
+.presentation_buttons{
+    display: inline-block;
+    border: 1px solid red;
+}
+.button { 
+    text-align: center;
+    font: inherit;
+    background-color: rgb(0, 142, 214);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 18px 28px;
+    vertical-align: middle;
+    border: none;
+}
+.presentation__button--load {
+    border: 3px solid rgb(0, 142, 214);
+    margin-right: 20px;
+}
+.presentation__button--features {
+    background-color: transparent;
+    border: 3px solid #2a292d;
 }
