@@ -4,7 +4,9 @@ body {
     font-size: 18px;
     line-height: 36px;
     font-family: "Source Sans Pro", Arial, sans-serif;
-
+}
+a {
+    text-decoration: none;
 }
 .nav {
     display: flex;
@@ -17,7 +19,7 @@ body {
     margin-left: 136px;
     width: 170px;
     
-    
+    margin-right: 600px;
     align-items: center;
 }
 
@@ -39,6 +41,7 @@ body {
     text-transform: uppercase;
     color: white;
     opacity: 0.3;
+    
 }
 
 .nav__list {
@@ -46,20 +49,13 @@ body {
     margin-right: 136px;
 }
 
-.nav__underline {
-    border: 2px solid red;
-}
-
 
 
 .nav__link {
-    
     margin-right: 22px;
-    color: white;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    font-size: 16px;
     justify-content: flex-end;
+    color: white;
 }
 
 .nav__link--dashed {
@@ -72,7 +68,7 @@ body {
     background-repeat: no-repeat;
     width: 45px;
     height: 2px;
-    bottom: 7px;
+    bottom: 0;
     left: 2px;
 }
 
@@ -87,10 +83,12 @@ body {
 .presentation {
     margin: 0;
     margin-left: 135px;
-    width: 510px;
+    width: 500px;
     height: 620px;
 }
 .presentation__introduce {
+    margin: 0;
+    margin-top: 50px;
     font-size: 14px;
     line-height: 48px;
     color: #008ed6;
@@ -99,9 +97,10 @@ body {
     font-weight: 600;
 }
 .presentation__slogan {
+    margin: 0;
     color: white;
     font-size: 48px;
-    line-height: 65px;
+    line-height: 50px;
     font-weight: 700;
     letter-spacing: 0.01em;
 }
@@ -111,10 +110,12 @@ body {
     color: #4c4e59;
 }
 .presentation_buttons{
-    display: inline-block;
-    border: 1px solid red;
+    display: flex;
+    margin-top: 60px;
+    
 }
 .button { 
+    box-sizing: border-box;
     text-align: center;
     font: inherit;
     background-color: rgb(0, 142, 214);
@@ -123,15 +124,16 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 48px;
-    padding: 18px 28px;
-    vertical-align: middle;
+    padding: 0 20px;
     border: none;
 }
 .presentation__button--load {
-    border: 3px solid rgb(0, 142, 214);
+    border: 3px solid rgb(0, 142, 214); 
     margin-right: 20px;
+    width: 160px;
 }
 .presentation__button--features {
     background-color: transparent;
-    border: 3px solid #2a292d;
+    width: 160px;
+    border: 3px solid #2a292d; 
 }
