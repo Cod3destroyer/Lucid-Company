@@ -11,18 +11,15 @@ a {
 .nav {
     display: flex;
     align-items: center;
-    height: 95px;
+    min-height: 95px;
 }
 .nav__logo {
     display: flex;
-    
     margin-left: 136px;
     width: 170px;
-    
     margin-right: 600px;
     align-items: center;
 }
-
 .nav__company {
     font-size: 24px;
     line-height: 58px;
@@ -41,23 +38,18 @@ a {
     text-transform: uppercase;
     color: white;
     opacity: 0.3;
-    
 }
-
 .nav__list {
     display: flex;
     margin-right: 136px;
 }
-
-
-
 .nav__link {
     margin-right: 22px;
+    margin-bottom: 28px;
     font-size: 16px;
     justify-content: flex-end;
     color: white;
 }
-
 .nav__link--dashed {
     position: relative;
 }
@@ -66,25 +58,25 @@ a {
     position: absolute;
     background-image: url("../img/header__underline.svg");
     background-repeat: no-repeat;
-    width: 45px;
-    height: 2px;
-    bottom: 0;
-    left: 2px;
+    background-position: 0 0;
+    height: 5px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
 }
-
 .header {
     
     background-image: url("../img/header_phones.png"),
                       url("../img/header_background.png");             
     background-repeat: no-repeat, no-repeat;
     width: 1440px;
-    height: 930px;
+    min-height: 930px;
 }
 .presentation {
     margin: 0;
     margin-left: 135px;
     width: 500px;
-    height: 620px;
+    min-height: 620px;
 }
 .presentation__introduce {
     margin: 0;
@@ -109,7 +101,7 @@ a {
     line-height: 26px;
     color: #4c4e59;
 }
-.presentation_buttons{
+.presentation__buttons{
     display: flex;
     margin-top: 60px;
     
