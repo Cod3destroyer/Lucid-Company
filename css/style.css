@@ -34,6 +34,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     margin: auto;
+    width: 1170px;
 }
 .nav__logo {
     display: flex;
@@ -58,7 +59,7 @@ h6 {
     opacity: 0.3;
 }
 .nav__list {
-    text-align: center;
+    margin: auto 0;
 }
 .nav__item {
     vertical-align: middle;
@@ -67,7 +68,7 @@ h6 {
     font-size: 16px;
     color: white;
 }
-.nav__item--dashed {
+/*.nav__item--dashed {
     position: relative;
 }
 .nav__item--dashed::after {
@@ -80,7 +81,7 @@ h6 {
     bottom: -10px;
     left: 0;
     right: 0;
-}
+} */
 .page-header {
     background-image: url("../img/header_phones.png"),
                       url("../img/header_background.png");             
@@ -109,6 +110,7 @@ h6 {
     line-height: 50px;
     font-weight: 700;
     letter-spacing: 0.01em;
+    margin-bottom: 25px;
 }
 .presentation__text {
     font-size: 18px;
@@ -258,7 +260,7 @@ h6 {
 .comments__person-name {
     margin: 0;
     font-size: 16px;
-    line-height: 46px;
+    line-height: 26px;
 }
 .comments__person-company {
     margin: 0;
