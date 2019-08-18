@@ -91,7 +91,7 @@ h6 {
 }
 .presentation {
     margin: 0;
-    width: 500px;
+    width: 485px;
 }
 .presentation__introduce {
     margin: 0;
@@ -168,6 +168,9 @@ h6 {
 .header-second--white {
     color: #ffffff;
 }
+.features {
+    margin-bottom: 65px;
+}
 .features__list {
     display: flex;
     justify-content: space-between;
@@ -179,6 +182,36 @@ h6 {
 }
 .features__title {
     color: #4c4e59;
+}
+.features__img {
+    border: 1px solid #e0e0e0;
+    border-radius: 50%; 
+    padding: 27px;
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.features__img--monitor {
+    background-image: url("../img/features__monitor.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.features__img--settings {
+    background-image: url("../img/features__settings.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.features__img--like {
+    background-image: url("../img/features__like.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.features__img--phone {
+    background-image: url("../img/features__phone.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .main-description {
     font-size: 18px;
@@ -194,11 +227,51 @@ h6 {
     background-repeat: no-repeat;
     margin-right: 70px;
 } 
+.details {
+    margin-top: 65px;
+}
+.details-bottom {
+    margin-right: 15px;
+}
 .details__list {
     list-style: none;
+    padding: 0;
 }
 .details__item {
+    display: flex;
     line-height: 30px;
+    align-items: center;
+}
+.details__img {
+    margin-right: 10px;
+}
+.details__first {
+    background-image: url("../img/details__cup.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.details__second {
+    background-image: url("../img/details__mouse.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.details__third {
+    background-image: url("../img/details__energy.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.details__fourth {
+    background-image: url("../img/details__speedometr.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
 }
 .bottom-content {
     display: flex;
@@ -291,6 +364,9 @@ h6 {
 .tickets__title,.tickets__price{
     border-bottom: 1px solid #e0e0e0;
 }
+.tickets__title--blue {
+    color: rgb(0, 142, 214);
+}
 .tickets__title {
     padding: 25px 110px;
     font-size: 24px;
@@ -303,18 +379,30 @@ h6 {
     padding-left: 85px;
     padding-right: 85px;
 }
+.tickets__price--blue {
+    background-color: rgb(0, 142, 214);
+}
 .tickets__cost {
     font-size: 60px;
     line-height: 20px;
     font-weight: 700;
 }
+.tickets__cost--white {
+    color: #ffffff;
+}
 .tickets__dollar {
     font-size: 48px;
     line-height: 20px;
 }
+.tickets__dollar--white {
+    color: #ffffff;
+}
 .tickets__price-gray {
     color: #999999;
-}   
+} 
+.tickets__price--white {
+    color: #ffffff;
+}  
 .tickets__text {
     padding: 35px 45px;
     color: #999999;
@@ -323,6 +411,7 @@ h6 {
     background-color: white;
     color: rgb(0, 142, 214);
     margin: 0 55px 35px 55px;
+    border: 1px solid #e0e0e0;
 }
 .color-blue {
     color: rgb(0, 142, 214);
